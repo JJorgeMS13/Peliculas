@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatronMvc", "PatronMvc.csproj", "{2CF7DF52-0D67-4858-A795-26EB06EDB88A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CF7DF52-0D67-4858-A795-26EB06EDB88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF7DF52-0D67-4858-A795-26EB06EDB88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF7DF52-0D67-4858-A795-26EB06EDB88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF7DF52-0D67-4858-A795-26EB06EDB88A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F974E35-91A2-4066-9B34-1C68190B234C}
+	EndGlobalSection
+EndGlobal

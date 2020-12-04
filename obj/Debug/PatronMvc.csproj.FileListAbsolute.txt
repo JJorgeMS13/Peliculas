@@ -1,0 +1,12 @@
+C:\Users\jjmartinez\source\repos\PatronMvc\bin\Debug\PatronMvc.exe.config
+C:\Users\jjmartinez\source\repos\PatronMvc\bin\Debug\PatronMvc.exe
+C:\Users\jjmartinez\source\repos\PatronMvc\bin\Debug\PatronMvc.pdb
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.csprojAssemblyReference.cache
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.Form1.resources
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.Properties.Resources.resources
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.csproj.GenerateResource.cache
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.csproj.CoreCompileInputs.cache
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.exe
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.pdb
+C:\Users\jjmartinez\source\repos\PatronMvc\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\jjmartinez\source\repos\PatronMvc\obj\Debug\PatronMvc.csproj.CopyComplete
