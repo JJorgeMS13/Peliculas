@@ -52,6 +52,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txt_Ejemplo = new System.Windows.Forms.TextBox();
+            this.lbl_Ejemplo = new System.Windows.Forms.Label();
+            this.btn_Ejemplo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dGdV_Datos)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -137,6 +140,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_Ejemplo);
+            this.groupBox1.Controls.Add(this.lbl_Ejemplo);
+            this.groupBox1.Controls.Add(this.txt_Ejemplo);
             this.groupBox1.Controls.Add(this.lbl_Precio);
             this.groupBox1.Controls.Add(this.lbl_Genero);
             this.groupBox1.Controls.Add(this.lbl_Titulo);
@@ -308,6 +314,32 @@
             this.panel2.Size = new System.Drawing.Size(476, 2);
             this.panel2.TabIndex = 4;
             // 
+            // txt_Ejemplo
+            // 
+            this.txt_Ejemplo.Location = new System.Drawing.Point(390, 30);
+            this.txt_Ejemplo.Name = "txt_Ejemplo";
+            this.txt_Ejemplo.Size = new System.Drawing.Size(100, 20);
+            this.txt_Ejemplo.TabIndex = 12;
+            // 
+            // lbl_Ejemplo
+            // 
+            this.lbl_Ejemplo.AutoSize = true;
+            this.lbl_Ejemplo.Location = new System.Drawing.Point(390, 57);
+            this.lbl_Ejemplo.Name = "lbl_Ejemplo";
+            this.lbl_Ejemplo.Size = new System.Drawing.Size(35, 13);
+            this.lbl_Ejemplo.TabIndex = 13;
+            this.lbl_Ejemplo.Text = "label5";
+            // 
+            // btn_Ejemplo
+            // 
+            this.btn_Ejemplo.Location = new System.Drawing.Point(390, 80);
+            this.btn_Ejemplo.Name = "btn_Ejemplo";
+            this.btn_Ejemplo.Size = new System.Drawing.Size(75, 23);
+            this.btn_Ejemplo.TabIndex = 14;
+            this.btn_Ejemplo.Text = "button1";
+            this.btn_Ejemplo.UseVisualStyleBackColor = true;
+            this.btn_Ejemplo.Click += new System.EventHandler(this.Btn_Ejemplo_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -359,6 +391,9 @@
         private System.Windows.Forms.Label lbl_Titulo;
         private System.Windows.Forms.Label lbl_Genero;
         private System.Windows.Forms.Label lbl_Precio;
+        private System.Windows.Forms.Button btn_Ejemplo;
+        private System.Windows.Forms.Label lbl_Ejemplo;
+        private System.Windows.Forms.TextBox txt_Ejemplo;
     }
 }
 

@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Controllers\MoviItemsControllers.cs" />
     <Compile Include="Models\Dao\BaseModel.cs" />
+    <Compile Include="Models\Dao\SeguridadSistema.cs" />
     <Compile Include="Views\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

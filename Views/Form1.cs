@@ -12,6 +12,8 @@ using System.IO;
 using PatronMvc.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
+using System.Security.Cryptography;
+using PatronMvc.Models.Dao;
 
 namespace PatronMvc
 {
@@ -357,6 +359,17 @@ namespace PatronMvc
             {
                 lbl_Precio.Text = "El precio es obligatorio";
                 lbl_Precio.ForeColor = Color.Red;
+            }
+        }
+
+        private void Btn_Ejemplo_Click(object sender, EventArgs e)
+        {
+            using (Aes myAes = Aes.Create())
+            {
+
+                byte[] textEncriptado = SeguridadSistema.EncriptarStringToBytes_Aes(txt_Ejemplo.Text, myAes.Key, myAes.IV);
+                string textDesencriptado = SeguridadSistema.DesencriptarStringDeByte_Aes(textEncriptado, myAes.Key, myAes.IV);
+                lbl_Ejemplo.Text = textDesencriptado;
             }
         }
     }
